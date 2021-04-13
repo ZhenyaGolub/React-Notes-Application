@@ -1,0 +1,71 @@
+@mixin add_tag {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  font-family: "Press Start 2P", cursive;
+  background-color: $basic_color;
+  color: white;
+  padding: 5px 10px;
+}
+
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgba(128, 128, 128, 0.616);
+  position: fixed;
+  top: 0;
+  left: 0;
+  &__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  &__input {
+    display: flex;
+    justify-content: center;
+  }
+  &__content {
+    background-color: rgb(211, 211, 211);
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    cursor: pointer;
+  }
+}
+
+.input_in_popup {
+  width: 80%;
+  border: 3px solid $basic_color;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 0;
+  font-family: "Press Start 2P", cursive;
+  color: $basic_color;
+  font-size: 15px;
+}
+
+.add_tag {
+  @include add_tag();
+  font-size: 20px;
+  margin-left: -130px;
+}
+
+.add_edit_tag {
+  @include add_tag();
+  font-size: 14px;
+  margin-left: -143px;
+}

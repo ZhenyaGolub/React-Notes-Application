@@ -1,0 +1,10 @@
+export const FETCH_NOTES = 'FETCH_NOTES';
+export const ADD_NOTE = 'ADD_NOTE';
+export const DELETE_NOTE = 'DELETE_NOTE';
+export const EDIT_NOTE_TEXT = 'EDIT_NOTE_TEXT';
+export const DELETE_TAG = 'DELETE_TAG';
+export const TOGGLE_POPUP = 'TOGGLE_POPUP';
+export const TOGGLE_EDIT_POPUP = 'TOGGLE_EDIT_POPUP';
+export const CHANGE_MODE = 'CHANGE_MODE';
+export const ADD_TAG = 'ADD_TAG';
+export const FILTER_NOTES = 'FILTER_NOTES';

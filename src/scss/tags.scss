@@ -1,0 +1,15 @@
+.tags_to_add {
+  padding: 5px 20px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.tags_to_add::-webkit-scrollbar {
+  height: 5px;
+  background-color: white;
+}
+
+.tags_to_add::-webkit-scrollbar-thumb {
+  background-color: $basic_color;
+  border-radius: 6px;
+}

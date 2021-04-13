@@ -1,0 +1,1 @@
+export const url = 'https://reactnotesapplication-default-rtdb.firebaseio.com';
